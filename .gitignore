@@ -10,3 +10,25 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+composer.json
+composer.json package.json
+phpunit.xml
+database
+.idea/vcs.xml
+app/
+composer.json
+public/
+routes/
+tests/
+artisan*
+composer.lock
+package.json
+README.md
+server.php
+vendor/
+bootstrap/
+config/
+phpunit.xml
+storage/
+webpack.mix.js
+
