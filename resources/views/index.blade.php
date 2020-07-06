@@ -10,7 +10,7 @@
         <table class="table text-center">
             <thead class="thead-dark">
             <tr>
-                <th scope="col">id</th>
+                <th scope="col">Id</th>
                 <th scope="col">Título</th>
                 <th scope="col">Autor</th>
                 <th scope="col">Preço</th>
