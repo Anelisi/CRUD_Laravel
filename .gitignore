@@ -31,4 +31,12 @@ config/
 phpunit.xml
 storage/
 webpack.mix.js
-
+.idea
+app
+.editorconfig
+.env.example
+.gitattributes
+.idea/.gitignore
+.idea/php.xml
+.styleci.yml
+.idea/workspace.xml
