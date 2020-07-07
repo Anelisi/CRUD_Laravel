@@ -7,6 +7,7 @@
         <button class="btn-success">Cadastrar</button></a>
     </div>
     <div class="col-8 m-auto">
+        @csrf
         <table class="table text-center">
             <thead class="thead-dark">
             <tr>
@@ -20,7 +21,7 @@
             <tbody>
             @foreach($book as $books)
                 @php
-                    $user=$books->find($books->id)->relUsers;
+                    $user= $books->find($books->id)->relUsers;
                 @endphp
                 <tr>
                     <th scope="row">{{$books->id}}</th>
@@ -35,7 +36,7 @@
                             <button class="btn-primary">Editar</button>
                         </a>
                         </a>
-                        <a href="">
+                        <a href="{{url("books/$books->id")}}" class="js-del">
                             <button class="btn-danger">Deletar</button>
                         </a>
                     </td>
